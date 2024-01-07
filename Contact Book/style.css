@@ -1,0 +1,118 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the form for adding contacts */
+.add-container {
+    margin-bottom: 20px;
+}
+
+.add-container label {
+    font-weight: bold;
+}
+
+.addInputs {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.addInputs input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#addContact {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addContact:hover {
+    background-color: #555;
+}
+
+#displayNoti {
+    margin-top: 10px;
+    color: #f44336;
+    font-weight: bold;
+}
+
+/* Style the form for getting contacts */
+.get-container label {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.getInputs {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.getInputs input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#getContact {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#getContact:hover {
+    background-color: #555;
+}
+
+#displayContact {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.reset {
+    text-align: center;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reset:hover {
+    background-color: #ff5722;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Book</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Contact Book</h1>
+    </header>
+    <main class="container">
+
+        <!--Add Contacts-->
+        <div class="add-container">
+            <label for="name">Add New Contact</label>
+            <div class="addInputs">
+                <input type="text" id="name" placeholder="Enter contact name" required/>
+                <input type="text" id="number" placeholder="Enter contact number" required/>
+            </div>
+            <button type="submit" id="addContact" onclick="addContact()">Submit</button>
+            <p id="displayNoti"></p>
+            <!-------------Get Contacts------------------>
+            <div class="get-container">
+                <label for="getContact">Get Contact Details</label>
+
+                <div class="getInputs">
+                    <input type="text" id="getContactName" placeholder="Contact Name" required/>
+                    <button id="getDetailButton">Get Detail</button>
+                </div>
+                <P id="displayContact"></P>
+                <div class="reset" onclick="reset()">Reset</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
